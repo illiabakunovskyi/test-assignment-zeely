@@ -23,7 +23,7 @@ export const Card: FC<CardProps> = ({
     <div
       className={cn(
         className,
-        "rounded-[16px] relative flex flex-col justify-center items-center overflow-hidden",
+        "rounded-[16px] relative flex flex-col justify-center items-center overflow-hidden hover:border-2  hover:border-black",
         { "bg-black py-4": loading },
         { "border-2 border-black": active },
       )}
