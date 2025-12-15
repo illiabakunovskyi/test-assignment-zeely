@@ -255,6 +255,12 @@ h1 {
 
 @theme {
     --font-primary: var(--font-italian);
+    --custom-green: #5BF0A5;
+    --custom-gray-100: #BFBDB4;
+    --custom-gray-200: #cad4dd;
+    --custom-gray-300: #F2F4F6;
+    --custom-gray-500: #333333;
+    --custom-gray-600: #404040;
 }
 
 @theme inline {
@@ -357,7 +363,7 @@ h1 {
 }
 
 .scroll-container::-webkit-scrollbar-thumb {
-    background-color: #cad4dd;
+    background-color: var(--custom-gray-200);
     border-radius: 10px;
     border: 1px solid transparent;
     background-clip: content-box;
@@ -365,5 +371,5 @@ h1 {
 
 .scroll-container {
     scrollbar-width: thin;
-    scrollbar-color: #cad4dd transparent;
+    scrollbar-color: var(--custom-gray-200) transparent;
 }

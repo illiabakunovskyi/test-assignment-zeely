@@ -22,7 +22,7 @@ export const IdeaSection = () => {
         Background idea
       </h3>
 
-      <div className="p-2 pt-4 border border-[#F2F4F6] rounded-[12px] mt-3">
+      <div className="p-2 pt-4 border border-(--custom-gray-300) rounded-[12px] mt-3">
         <div
           contentEditable
           className="outline-0 font-medium text-md text-black px-2 h-[116px] overflow-y-scroll font-primary"

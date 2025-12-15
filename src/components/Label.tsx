@@ -9,7 +9,7 @@ type LabelProps = {
 
 export const Label: FC<LabelProps> = ({ text, classNames }) => {
   return (
-    <div className={cn("bg-white px-1 py-1.5 border border-[#BFBDB4] text-[#404040] text-[10px]/[7px] font-bold rounded-[5px]", classNames)}>
+    <div className={cn("bg-white px-1 py-1.5 border border-(--custom-gray-100) text-(--custom-gray-600) text-[10px]/[7px] font-bold rounded-[5px]", classNames)}>
       {text}
     </div>
   );
