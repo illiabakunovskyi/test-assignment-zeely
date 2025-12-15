@@ -5,6 +5,7 @@ import { defineConfig } from "vite";
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/test-assignment-zeely/",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
